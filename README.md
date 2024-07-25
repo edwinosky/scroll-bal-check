@@ -2,9 +2,11 @@
 python script to check if a list of addresses "wallets.txt" has balance on the scroll blockchain
 
 ## Instructions:  
-1: Input file: Make sure the wallets.txt file contains one wallet address per line.
+1: pip install requests
 
-2: Run the script: Save the script to a Python file (e.g. check_bal.py) and run it. It will read the addresses from wallets.txt, check the balance of each one using the Scroll API, print the result to the console and save the addresses with balance in a file wallets_with_balance.txt.
+2: Input file: Make sure the wallets.txt file contains one wallet address per line.
+
+3: Run the script: Save the script to a Python file (e.g. check_bal.py) and run it. It will read the addresses from wallets.txt, check the balance of each one using the Scroll API, print the result to the console and save the addresses with balance in a file wallets_with_balance.txt.
 
 ===================================
 
